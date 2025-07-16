@@ -1,0 +1,8 @@
+.step {
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+}
+.step.active {
+  border-color: #007BFF;
+  font-weight: bold;
+}
