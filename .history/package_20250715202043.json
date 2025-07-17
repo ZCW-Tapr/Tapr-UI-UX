@@ -1,0 +1,13 @@
+{
+  "name": "tapr-ui-ux",
+  "version": "1.0.0",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test"
+}
+}

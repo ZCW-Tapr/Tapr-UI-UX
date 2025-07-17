@@ -1,0 +1,24 @@
+zones:
+  Bedroom:
+    - id: 1679812345678
+      fingers: 2
+      motion: tap
+      actions:
+        - lights.toggle
+        - speaker.playAmbient
+      active: true
+
+  LivingRoom:
+    - id: 1679812345689
+      fingers: 1
+      motion: swipeRight
+      actions:
+        - lights.livingRoom.toggle
+      active: false
+
+  Kitchen:
+    - id: 1679812345690
+      fingers: 1
+      motion: pressHold
+      actions: []
+      active: true
